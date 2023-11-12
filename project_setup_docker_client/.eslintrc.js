@@ -1,0 +1,33 @@
+module.exports = {
+    env: {
+        node: true,
+    },
+    extends: ['plugin:vue/essential', 'eslint:recommended', '@vue/airbnb'],
+    parserOptions: {
+        parser: '@babel/eslint-parser',
+    },
+    rules: {
+        'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+        'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+        'vue/multi-word-component-name': 'off',
+        'import/extensions': 'off',
+        'no-param-reassign': 'off',
+        'no-plusplus': 'off',
+        'import/no-relative-packages': 'off',
+        'prefer-destructuring': 'off',
+        radix: 'off',
+        'no-restricted-syntax': 'off',
+        'import/no-cycle': 'off',
+        'vue/no-mutating-props': 'off',
+        'max-len': ['error', { code: 3000, tabWidth: 8 }],
+        'vue/valid-v-slot': ['error', { allowModifiers: true }],
+        'vuejs-accessibility/form-control-has-label': 'off',
+        indent: ['error', 4],
+        'vue/multi-word-component-names': 'off',
+        'vuejs-accessibility/click-events-have-key-events': 'off',
+        'vuejs-accessibility/anchor-has-content': 'off',
+        'linebreak-style': 0,
+        'import/no-named-as-default': 0,
+        'import/no-extraneous-dependencies': 0,
+    },
+};

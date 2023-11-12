@@ -1,0 +1,38 @@
+/* Init tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .ct-hover-menu::before {
+        position: absolute;
+        left: 0;
+        width: 5px;
+        content: '';
+        height: 70%;
+        background: #003343;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

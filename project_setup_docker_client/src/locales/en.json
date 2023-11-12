@@ -1,0 +1,1273 @@
+{
+    "appBar": {
+        "home": "Home",
+        "asset": "Asset",
+        "report": "Report",
+        "intervention": "Intervention",
+        "order": "Order",
+        "article": "Article",
+        "MyAccount": "My Account",
+        "logout": "Logout"
+    },
+    "forms": {
+        "transaction": {
+            "transaction": "The transaction"
+        },
+        "location": {
+            "stepper": {
+                "stepOne": "Choose a locationType",
+                "stepTwo": "Choose a nature",
+                "stepThree": "Choose a sub-nature",
+                "stepFour": "Draw on map",
+                "stepFive": "Additional infos",
+                "stepSix": "Upload image",
+                "stepSeven": "Finishing"
+            },
+            "type": {
+                "buildings": "Buildings",
+                "greenspaces": "Greenspaces",
+                "waterspaces": "Waterspaces",
+                "watercourses": "Watercourses",
+                "icar_routes": "Route"
+            },
+            "map": {
+                "name": "Name",
+                "positionPoint": "Position the marker",
+                "drawLocation": "Draw the location",
+                "plotInformations": "Plot information",
+                "division": "Division",
+                "section": "Section",
+                "parcel": "Parcel",
+                "bis": "Bis",
+                "exponent": "Exhibitor",
+                "cadastre": "Cadastre",
+                "address": "Address",
+                "number": "Number",
+                "locality": "Locality",
+                "postalCode": "Postal Code",
+                "greenspaceInfos": "Greenspace informations",
+                "greenspaceName": "Greenspace name",
+                "greenspaceNature": "Nature",
+                "greenspaceSubNature": "Subnature"
+            },
+            "buildingInfos": {
+                "field1": "Description",
+                "field2": "Conditions d'intervention",
+                "field3": "Alarme intrusion",
+                "field4": "Alarme incendie",
+                "field5": "Peut être loué",
+                "field6": "Surface utile",
+                "field7": "Surface plancher",
+                "field8": "Nombre de niveaux",
+                "field9": "Volume",
+                "field10": "Volume chauffé",
+                "field11": "Etablissement recevant du public",
+                "field12": "Capacité d'accueil théorique",
+                "field13": "Capacité d'accueil réelle",
+                "field14": "Commentaire"
+            },
+            "greenspaceInfos": {
+                "tabOne": {
+                    "title": "General informations",
+                    "field1": "Description",
+                    "field2": "Conditions d'intervention",
+                    "field3": "Longueur",
+                    "field4": "Largeur",
+                    "field5": "Diamètre",
+                    "field6": "Hauteur",
+                    "field7": "Surface",
+                    "field8": "Volume",
+                    "field9": "Commentaire"
+            },
+                "tabTwo": {
+                    "title": "Specific informations",
+                    "field1": "Classe de gestion",
+                    "field2": "Priorité et objectifs",
+                    "field3": "Remarques",
+                    "field4": "Connexion filet d'eau",
+                    "field5": "Type de revêtement",
+                    "field6": "Entretien du revêtement",
+                    "field7": "Matériel à employer",
+                    "field8": "Fréquence entretien revêtement",
+                    "field9": "Temps planifié entretien revêtement",
+                    "field10": "Type de plantation",
+                    "field11": "Entretien des plantations",
+                    "field12": "Matériel entretien plantation",
+                    "field13": "Fréquence entretien plantation",
+                    "field14": "Date prévisionnelle du changement"
+                }
+            },
+            "uploadImage": "uploadImage",
+            "selectFile": "Select a file",
+            "save": "Save",
+            "building": "The building",
+            "greenspace": "The greenspace",
+            "watercourse": "The watercourse",
+            "waterspace": "The waterspace",
+            "successMessage": "is well registered (reference:"
+        },
+        "asset": {
+            "chooseAssetType": "Choose an asset type",
+            "stepper": {
+                "step1": "Type",
+                "step2": "Nature",
+                "step3": "Subnature",
+                "step4": "Position",
+                "step5": "Link an article",
+                "step6": "Photo",
+                "step7": "Finish"
+            },
+            "locationInformations": "Location informations",
+            "type": "Type",
+            "linkOtherAsset": "Link to another asset",
+            "dataTable": {
+                "reference": "Ref.",
+                "icon": "Icon",
+                "name": "Name",
+                "distance": "Distance"
+            },
+            "linkArticle": {
+                "articleToLink": "Article to link",
+                "brand": "Brand",
+                "catalogValue": "Catalog value",
+                "name": "Name",
+                "dimensions": "Dimensions",
+                "description": "Description",
+                "barCode": "Bar code",
+                "material": "Material",
+                "reset": "Réinitialiser"
+            },
+            "asset": "The asset"
+        },
+        "report": {
+            "chooseReportType": "Choose an report type",
+            "stepper": {
+                "step1": "Type",
+                "step2": "Nature",
+                "step3": "Subnature",
+                "step4": "Location",
+                "step5": "Observation",
+                "step6": "Photo",
+                "step7": "Finish"
+            },
+            "map": {
+                "locationInformations": "Location informations",
+                "type": "Type",
+                "linkAsset": "Link to an asset",
+                "positionOnLocation": "Position on a location",
+                "showAssetsOnMap": "Show assets on map",
+                "linkToAnotherAsset": "Link to another asset",
+                "dataTable": {
+                    "reference": "Ref.",
+                    "icon": "Icon",
+                    "name": "Name",
+                    "distance": "Distance"
+                }
+            },
+            "observation": "Observation",
+            "uploadPhoto": "Upload a photo",
+            "succesMessage": "The report has been created with success.",
+            "fieldRequired": "Field required"
+        },
+        "intervention": {
+            "stepper": {
+                "step1": "Request",
+                "step2": "Description",
+                "step3": "Position",
+                "step4": "Operational",
+                "step5": "Photo/document",
+                "step6": "Finish"
+            },
+            "request": {
+                "user": "User",
+                "administration": "Administration",
+                "citizen": "Citizen",
+                "association": "Association",
+                "askingService": "Asking service",
+                "askedBy": "Asked by",
+                "citizenLastName": "Last name",
+                "citizenFirstName": "First name",
+                "citizenPhone": "Phone",
+                "citizenMail": "Email",
+                "createdOn": "Request date",
+                "intType": "Intervention type",
+                "intNature": "Intervention nature",
+                "intSubNature": "Intervention subnature",
+                "projectType": "Project type",
+                "urgency": "Urgency",
+                "reportId": "Ref. report",
+                "selectedReport": "Selected report"
+            },
+            "description": {
+                "comment": "Comment on intervention",
+                "observation": "Observation on site"
+            },
+            "map": {
+                "locationInformations": "Location informations",
+                "type": "Type",
+                "linkAsset": "Link to an asset",
+                "positionOnLocation": "Position on a location",
+                "showAssetsOnMap": "Show assets on map",
+                "linkToAnotherAsset": "Link to another asset",
+                "dataTable": {
+                    "reference": "Ref.",
+                    "icon": "Icon",
+                    "name": "Name",
+                    "distance": "Distance"
+                }
+            },
+            "work": {
+                "wishedDateStart": "Wished date start",
+                "deadline": "Deadline",
+                "specialRequest": "Special requests"
+            },
+            "uploadPhoto": "Upload a picture",
+            "successMessage": "Your request has been saved.",
+            "fieldRequired": "Required field"
+        }
+    },
+    "dialogs": {
+        "technicians": {
+            "title": "Technicians' activity",
+            "lastName": "Last name",
+            "start": "Start Date",
+            "working": "Working time",
+            "status": "Status",
+            "close": "Close",
+            "details": "Details",
+            "day": "Day",
+            "hour": "Hour",
+            "minute": "Minute"
+        },
+        "reports": {
+            "tabs": {
+                "generalInformations": "General informations",
+                "location": "Location",
+                "addressAndPlot": "Address and plot",
+                "building": "Building(s)",
+                "greenspace": "Greenspace(s)",
+                "waterspace": "Waterspace(s)",
+                "watercourse": "Watercourse(s)",
+                "photos": "Photos",
+                "asset": "Linked asset(s)",
+                "intervention": "Linked intervention(s)",
+                "order": "Linked order(s)",
+                "history": "History"
+            },
+            "generalInformations": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "status": "Status",
+                "reportDate": "Report date",
+                "observation": "Observation"
+            },
+            "buttons": {
+                "close": "Close",
+                "edit": "Edit",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "interventions": {
+            "tabs": {
+                "generalInformations": "General informations",
+                "location": "Location",
+                "addressAndPlot": "Address and plot",
+                "building": "Building(s)",
+                "greenspace": "Greenspace(s)",
+                "waterspace": "Waterspace(s)",
+                "watercourse": "Watercourse(s)",
+                "photos": "Photos",
+                "asset": "Linked asset(s)",
+                "report": "Linked report(s)",
+                "order": "Linked order(s)",
+                "history": "History"
+            },
+            "generalInformations": {
+                "reference": "Reference",
+                "status": "Status",
+                "createdOn": "Created on",
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "reportType": "Report type",
+                "dateStart": "Start date",
+                "interventionType": "Intervention type",
+                "dateEnd": "End date",
+                "projectType": "Project type",
+                "observation": "Observation",
+                "urgency": "Urgency",
+                "askedBy": "Asked by",
+                "askingService": "Asking service",
+                "comment": "Comment"
+            },
+            "buttons": {
+                "close": "Close",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "orders": {
+            "tabs": {
+                "generalInformations": "General informations",
+                "location": "Location",
+                "addressAndPlot": "Address and plot",
+                "building": "Building(s)",
+                "greenspace": "Greenspace(s)",
+                "waterspace": "Waterspace(s)",
+                "watercourse": "Watercourse(s)",
+                "photos": "Photos",
+                "asset": "Linked asset(s)",
+                "report": "Linked report(s)",
+                "intervention": "Linked intervention(s)",
+                "history": "History"
+            },
+            "generalInformations": {
+                "reference": "Reference",
+                "createdOn": "Created on",
+                "createdBy": "Created by",
+                "validatedBy": "Validated by"
+            },
+            "buttons": {
+                "close": "Close",
+                "edit": "Edit",
+                "cancel": "To Cancel",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "assets": {
+            "tabs": {
+                "generalInformations": "General informations",
+                "location": "Location",
+                "addressAndPlot": "Address and plot",
+                "building": "Building(s)",
+                "greenspace": "Greenspace(s)",
+                "waterspace": "Waterspace(s)",
+                "watercourse": "Watercourse(s)",
+                "photos": "Photos",
+                "report": "Linked report(s)",
+                "intervention": "Linked intervention(s)",
+                "order": "Linked order(s)",
+                "history": "History"
+            },
+            "generalInformations": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "status": "Status",
+                "reportDate": "Reporting date",
+                "observation": "Observation"
+            },
+            "buttons": {
+                "close": "Close",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "active": "Active",
+        "inactive": "Inactive",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "close": "Close",
+        "save": "Save",
+        "reset": "Reset",
+        "confirmDelete": "Do you really want to delete this item?",
+        "deleteTitle": "Confirm deletion",
+        "mySearches": "My searches",
+        "saveResearch": "Save a search",
+        "searchTitle": "Search title",
+        "byDefault": "By default",
+        "public": "Public",
+        "nameIsRequired": "Name is required",
+        "typeIsRequired": "Type is required",
+        "categoryIsRequired": "Category is required",
+        "natureIsRequired": "Nature is required",
+        "subNatureIsRequired": "Subnature is required",
+        "statusIsRequired": "Status is required",
+        "iconIsRequired": "Icon is required",
+        "serviceIsRequired": "Service is required",
+        "subServiceIsRequired": "Subservice is required",
+        "unitIsRequired": "Unit is required",
+        "subUnitIsRequired": "Subunit is required",
+        "userIsRequired": "User is required",
+        "streetIsRequired": "Street is required",
+        "interventionIsRequired": "Intervention is required",
+        "reportIsRequired": "Report is required",
+        "descriptionIsRequired": "Description is required",
+        "observationIsRequired": "Observation is required",
+        "dateIsRequired": "Date is required",
+        "calendar": {
+            "confirm": "Confirm Scheduled",
+            "start": "Scheduled start",
+            "end": "Scheduled end",
+            "time": "Scheduled time",
+            "disagree": "Disagree",
+            "agree": "Agree"
+        }
+    },
+    "status": {
+        "opened": "Open",
+        "pending": "Waiting",
+        "processing": "Processing",
+        "enclosed": "Enclosed",
+        "transferred": "Transferred",
+        "rejected": "Rejected"
+    },
+    "filters": {
+        "assets": {
+            "type": "Type",
+            "nature": "Nature",
+            "subNature": "Subnature",
+            "reference": "Reference",
+            "streetName": "Street name",
+            "status": "Status",
+            "mySearches": "My searches",
+            "saveSearch": "Save",
+            "reset": "Reset",
+            "search": "Search"
+        },
+        "reports": {
+            "status": {
+                "open": "Open",
+                "processing": "Processing",
+                "enclosed": "Enclosed",
+                "transferred": "Transferred",
+                "rejected": "Rejected"
+            },
+            "type": "Type",
+            "nature": "Nature",
+            "subNature": "Subnature",
+            "location": "Location",
+            "street": "Street",
+            "streetNumber": "Street number",
+            "dateFrom": "From",
+            "dateTo": "To",
+            "reference": "Ref.",
+            "observation": "Observation",
+            "mySearches": "My searches",
+            "saveSearch": "Save",
+            "reset": "Reset",
+            "search": "Search"
+        },
+        "interventions": {
+            "status": {
+                "open": "Open",
+                "processing": "Processing",
+                "enclosed": "Enclosed",
+                "transferred": "Transferred",
+                "rejected": "Rejected"
+            },
+            "type": "Type",
+            "reportingService": "Reporting service",
+            "interventingService": "Interventing service",
+            "createdOnFrom": "Created on (from)",
+            "createdOnTo": "Created on (to)",
+            "wishedDateStartFrom": "Wished date start (from)",
+            "wishedDateStartTo": "Wished date start (to)",
+            "streetName": "Street name",
+            "streetNumber": "Street number",
+            "reference": "Ref.",
+            "observation": "Observation",
+            "comment": "Comment",
+            "mySearches": "My searches",
+            "saveSearch": "Save",
+            "reset": "Reset",
+            "search": "Search"
+        },
+        "orders": {
+            "status": {
+                "open": "Open",
+                "pending": "Pending",
+                "processing": "Processing",
+                "enclosed": "Enclosed",
+                "transferred": "Transferred",
+                "rejected": "Rejected"
+            },
+            "referenceOrder": "Ref. order (ID)",
+            "createdOnFrom": "Created on (from)",
+            "createdOnTo": "Created on (to)",
+            "scheduledDateFrom": "Scheduled date (from)",
+            "scheduledDateTo": "Scheduled date (to)",
+            "serviceDateFrom": "Service date (from)",
+            "serviceDateTo": "Service date (to)",
+            "referenceIntervention": "Ref. intervention (ID)",
+            "streetName": "Street name",
+            "steetNumber": "Street number",
+            "intNature": "Intervention nature",
+            "intSubNature": "Intervention subnature",
+            "workDescription": "Work description",
+            "interventionComment": "Intervention comment",
+            "mySearches": "My searches",
+            "saveSearch": "Save",
+            "reset": "Reset",
+            "search": "Search"
+        },
+        "articles": {
+            "name": "Name",
+            "barCode": "Bar code",
+            "nature": "Nature",
+            "category": "Category",
+            "subcategory": "Subcategory",
+            "mySearches": "My searches",
+            "saveSearch": "Save",
+            "reset": "Reset",
+            "search": "Search"
+        }
+    },
+    "lists": {
+        "assets": {
+            "assetSearching": "Asset searching",
+            "assetsList": "Assets list",
+            "dataTable": {
+                "reference": "Reference",
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "streetName": "Street name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            }
+        },
+        "reports": {
+            "reportSearching": "Report searching",
+            "reportsList": "Reports list",
+            "dataTable": {
+                "reference": "Reference",
+                "createdOn": "Created on",
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "streetName": "Street name",
+                "actions": "Actions"
+            }
+        },
+        "interventions": {
+            "interventionSearching": "Intervention searching",
+            "interventionsList": "Interventions list",
+            "dataTable": {
+                "reference": "Ref.",
+                "createdOn": "Created on",
+                "start": "Start",
+                "end": "End",
+                "type": "Type",
+                "requestedBy": "Requested by",
+                "requestingAgency": "Requesting agency",
+                "streetName": "Street name",
+                "comment": "Comment",
+                "actions": "Actions"
+            }
+        },
+        "orders": {
+            "orderSearching": "Order searching",
+            "ordersList": "Orders list",
+            "dataTable": {
+                "reference": "Ref.",
+                "createdOn": "Created on",
+                "serviceDateStart": "Service date start",
+                "serviceDateTo": "Service date to",
+                "interventionType": "Intervention Type",
+                "streetName": "Street name",
+                "reportType": "Report type",
+                "description": "Description",
+                "actions": "Actions"
+            }
+        },
+        "articles": {
+            "articleSearching": "Article searching",
+            "articlesList": "Articles list",
+            "dataTable": {
+                "name": "Name",
+                "barCode": "Bar code",
+                "nature": "Nature",
+                "category": "Category",
+                "subCategory": "Subcategory",
+                "actions": "Actions"
+            }
+        }
+    },
+    "create": {
+        "article": {
+            "newArticle": "New article",
+            "reset": "Reset",
+            "save": "Save",
+            "form": {
+                "isAsset": "Asset",
+                "name": "Name",
+                "barCode": "Bar code",
+                "externalReference": "External reference",
+                "nature": "Nature",
+                "category": "Category",
+                "subCategory": "Subcategory",
+                "description": "Description",
+                "brand": "Brand",
+                "dimensions": "Dimensions",
+                "catalogValue": "Catalog value",
+                "material": "Material",
+                "active": "Active",
+                "pharmaceutical": "Pharmaceutical",
+                "batch": "Batch",
+                "batchNumber": "By batch of"
+            }
+        }
+    },
+    "home": {
+        "assetsNearby": "Assets nearby",
+        "reportsNearby": "Reports nearby",
+        "interventionsNearby": "Interventions nearby",
+        "ordersNearby": "Orders nearby",
+        "assets": {
+            "ref": "Ref.",
+            "nature": "Nature",
+            "subNature": "Subnature",
+            "distance": "Distance",
+            "action": "Actions"
+        },
+        "reports": {
+            "ref": "Ref.",
+            "type": "Type",
+            "createdOn": "Created on",
+            "address": "Address",
+            "status": "Status",
+            "distance": "Distance",
+            "actions": "Actions"
+        },
+        "interventions": {
+            "ref": "Ref.",
+            "createdOn": "Created on",
+            "address": "Address",
+            "status": "Status",
+            "distance": "Distance",
+            "actions": "Actions"
+        },
+        "orders": {
+            "ref": "Ref.",
+            "date": "Date",
+            "address": "Address",
+            "status": "Status",
+            "distance": "Distance",
+            "actions": "Actions"
+        }
+    },
+    "dashboard": {
+        "searchingReports": "Searching reports",
+        "searchingInterventions": "Searching interventions",
+        "searchingOrders": "Searching orders"
+    },
+    "drawer": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "lists": "Lists",
+        "reports": "Reports",
+        "interventions": "Interventions",
+        "orders": "Orders",
+        "circuits": "List circuits",
+        "campaigns": "List campagnes",
+        "circuiteAndCampaign": "Circuits and campagnes",
+        "assets": "Assets",
+        "addToLocation": "Add to locations",
+        "addToAssets": "Add to assets",
+        "assetsList": "Assets list",
+        "stock": "Stock",
+        "addArticle": "Add an article",
+        "articlesList": "Articles list",
+        "workOrders": "Work orders",
+        "createWorkOrder": "Create a work order",
+        "orderManagement": "Orders management",
+        "requests": "Requests",
+        "createReport": "Create a report",
+        "createIntervention": "Create an intervention",
+        "createCircuit": "Create a circuit",
+        "createCampaign": "Create a campagne",
+        "calendarAndPlanning": "Calendar & planning",
+        "ordersCalendar": "Orders calendar",
+        "technicianCalendar": "Technician Calendar",
+        "stats": "Statistics",
+        "applicationManagement": "Application management",
+        "typeManagement": "Type management",
+        "reportManagement": "Report management",
+        "interventionManagement": "Intervention management",
+        "articleManagement": "Article management",
+        "technicianManagement": "Technician management",
+        "assetManagement": "Asset management",
+        "buildingManagement": "Building management",
+        "greenspaceManagement": "Greenspace management",
+        "waterspaceManagement": "Waterspace management",
+        "watercourseManagement": "Watercourse management",
+        "organizationalChartManagement": "Organizational Management",
+        "generalSettings": "General settings",
+        "managerAccount": "Manager account",
+        "userAccounts": "User accounts",
+        "managerRole": "Manager role",
+        "managerPictograms": "Pictogram management",
+        "managerCircuit": "Circuit management",
+        "managerCampaign": "Campagne management",
+        "managerContact": "Contacts management"
+    },
+    "appManagement": {
+        "pictograms" : {
+            "title" : "Pictogram management",
+            "tabs": {
+                "pictograms": "Pictograms ",
+                "pictograms_sets": "Pictograms sets"
+            }
+        },
+        "assets": {
+            "title": "Asset management",
+            "tabs": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableType": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "type": "Type",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubnature": {
+                "reference": "Ref.",
+                "type": "Type",
+                "nature": "Nature",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogType": {
+                "title": "Add/edit an asset type",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogNature": {
+                "title": "Add/edit a nature",
+                "reference": "Reference",
+                "name": "Name",
+                "type": "Type",
+                "interventionType": "Intervention type",
+                "service": "Service",
+                "subService": "Subservice",
+                "unit": "Unit",
+                "subUnit": "Subunit",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubnature": {
+                "title": "Add/edit a subnature",
+                "reference": "Reference",
+                "type": "Type",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icône",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "articles": {
+            "title": "Articles management",
+            "tabs": {
+                "nature": "Nature",
+                "category": "Category",
+                "subCategory": "Subcategory"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableCategory": {
+                "reference": "Ref.",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubcategory": {
+                "reference": "Ref.",
+                "category": "Category",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogNature": {
+                "title": "Add/edit an article nature",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogCategory": {
+                "title": "Add/edit an article category",
+                "reference": "Reference",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubcategory": {
+                "title": "Add/edit an article sub-category",
+                "reference": "Reference",
+                "category": "Category",
+                "name": "Name",
+                "status": "Status",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "reports": {
+            "title": "Report management",
+            "tabs": {
+                "nature": "Nature",
+                "subNature": "Subnature",
+                "type": "Type"
+            },
+            "dataTableType": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "type": "Type",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubnature": {
+                "reference": "Ref.",
+                "nature": "Nature",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogType": {
+                "title": "Add/edit a report type",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogNature": {
+                "title": "Add/edit a nature",
+                "reference": "Reference",
+                "name": "Name",
+                "type": "Type",
+                "interventionType": "Intervention type",
+                "service": "Service",
+                "subService": "Subservice",
+                "unit": "Unit",
+                "subUnit": "Subunit",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubnature": {
+                "title": "Add/edit a subnature",
+                "reference": "Reference",
+                "type": "Type",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icône",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "interventions": {
+            "title": "Intervention management",
+            "tabs": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableType": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "type": "Type",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubnature": {
+                "reference": "Ref.",
+                "type": "Type",
+                "nature": "Nature",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogType": {
+                "title": "Add/edit an intervention type",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogNature": {
+                "title": "Add/edit a nature",
+                "reference": "Reference",
+                "name": "Name",
+                "type": "Type",
+                "interventionType": "Intervention type",
+                "service": "Service",
+                "subService": "Subservice",
+                "unit": "Unit",
+                "subUnit": "Subunit",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubnature": {
+                "title": "Add/edit a subnature",
+                "reference": "Reference",
+                "type": "Type",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icône",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "buildings": {
+            "title": "Building management",
+            "tabs": {
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubnature": {
+                "reference": "Ref.",
+                "nature": "Nature",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogNature": {
+                "title": "Add/edit a nature",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubnature": {
+                "title": "Add/edit a subnature",
+                "reference": "Reference",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "greenspaces": {
+            "title": "Greenspace management",
+            "tabs": {
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableNature": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubnature": {
+                "reference": "Ref.",
+                "nature": "Nature",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogNature": {
+                "title": "Add/edit a nature",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            },
+            "dialogSubnature": {
+                "title": "Add/edit a subnature",
+                "reference": "Reference",
+                "nature": "Nature",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "watercourses": {
+            "title": "Watercourses management",
+            "tabs": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableType": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogType": {
+                "title": "Add/edit a watercourse",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "waterspaces": {
+            "title": "Waterspaces management",
+            "tabs": {
+                "type": "Type",
+                "nature": "Nature",
+                "subNature": "Subnature"
+            },
+            "dataTableType": {
+                "reference": "Ref.",
+                "name": "Name",
+                "icon": "Icon",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogType": {
+                "title": "Add/edit a watercourse",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status",
+                "icon": "Icon",
+                "reset": "Reset",
+                "save": "Save"
+            }
+        },
+        "generalSettings": {
+            "title": "Parameters choice",
+            "tabs": {
+                "tab1": "Constructif",
+                "tab2": "Service demandeur",
+                "tab3": "Projet",
+                "tab4": "Degré d'urgence",
+                "tab5": "Matériel",
+                "tab6": "Matériau",
+                "tab7": "Importé"
+            },
+            "constructive": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions",
+                "messeageDelete": "Supprimé avec succès."
+            },
+            "projectType": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions",
+                "messeageDelete": "Supprimé avec succès."
+            },
+            "urgencies": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions",
+                "messeageDelete": "Supprimé avec succès."
+            },
+            "equipments": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions",
+                "messeageDelete": "Supprimé avec succès."
+            },
+            "material": {
+                "id": "Id",
+                "name": "Name",
+                "actions": "Actions",
+                "messeageDelete": "Supprimé avec succès."
+            }
+        },
+        "organigramme": {
+            "title": "Organization management",
+            "tabs": {
+                "tab1": "Service",
+                "tab2": "Subservice",
+                "tab3": "Unit",
+                "tab4": "Subunit"
+            },
+            "dataTableService": {
+                "reference": "Ref.",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubService": {
+                "reference": "Ref.",
+                "service": "Service",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableUnit": {
+                "reference": "Ref.",
+                "subService": "Subservice",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dataTableSubUnit": {
+                "reference": "Ref.",
+                "unit": "Unit",
+                "name": "Name",
+                "status": "Status",
+                "actions": "Actions"
+            },
+            "dialogService": {
+                "title": "Add/edit a service",
+                "reference": "Reference",
+                "name": "Name",
+                "status": "Status"
+            },
+            "dialogSubService": {
+                "title": "Add/edit a subservice",
+                "reference": "Reference",
+                "service": "Service",
+                "name": "Name",
+                "status": "Status"
+            },
+            "dialogUnit": {
+                "title": "Add/edit an unit",
+                "reference": "Reference",
+                "subService": "Subservice",
+                "name": "Name",
+                "status": "Status"
+            },
+            "dialogSubUnit": {
+                "title": "Add/edit a subunit",
+                "reference": "Reference",
+                "unit": "Unit",
+                "name": "Name",
+                "status": "Status"
+            }
+        },
+        "users": {
+            "title": "Users management",
+            "dataTable": {
+                "userType": "User type",
+                "username": "Username",
+                "name": "Name",
+                "type": "Type",
+                "status": "Status",
+                "service": "Service",
+                "actions": "Actions"
+            },
+            "dialog": {
+                "title": "User information",
+                "username": "Username",
+                "email": "Email",
+                "password": "Password",
+                "type": "Type",
+                "lastName": "Last name",
+                "firstName": "First name",
+                "phone": "Phone",
+                "mobile": "GSM",
+                "streetName": "Street name",
+                "streetNumber": "Street number",
+                "status": "Status",
+                "service": "Service",
+                "subService": "Subservice",
+                "unit": "Unit",
+                "subUnit": "Subunit",
+                "isManager": "Manager",
+                "isTechnician": "Technician",
+                "add": "Add",
+                "reset": "Reset",
+                "save": "Save",
+                "isStorekeeper": "Storekeeper"
+            }
+        }
+    },
+    "calendar": {
+        "orderCalendar": {
+            "search": "Search for a work order",
+            "today": "Today",
+            "day": "Day",
+            "week": "Week",
+            "month": "Month",
+            "workOrder": "Work Order",
+            "typeOfIntervention": "Type of intervention",
+            "typeOfAlert": "Type of alert",
+            "street": "Street",
+            "successMessageCalendar": "Create successful calendar!",
+            "confirm": "Do you want to change order status?",
+            "successMessage": "Update successful!"
+        },
+        "technicianCalendar": {
+            "technicians": "Technician",
+            "availability": "Availability",
+            "absence": "Absence",
+            "search": "Search for a work order",
+            "today": "Today",
+            "day": "Day",
+            "week": "Week",
+            "month": "Month",
+            "name": "Name",
+            "email": "Email",
+            "address": "Address",
+            "cancel": "Cancel"
+        }
+    }
+}

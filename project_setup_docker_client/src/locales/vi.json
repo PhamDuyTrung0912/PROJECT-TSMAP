@@ -1,0 +1,19 @@
+{
+    "appBar": {
+        "home": "Home",
+        "asset": "Asset",
+        "report": "Report",
+        "intervention": "Intervention",
+        "order": "Order",
+        "article": "Article",
+        "MyAccount": "My Account",
+        "logout": "Logout"
+    },
+    "map": {
+        "tool": {
+            "mesuare": "Bắt đầu đo tại đây",
+            "click_mesuare": "Nhấp để tiếp tục vẽ đa giác",
+            "double_click_mesuare": "Nháy đúp chuột để hoàn thành"
+        }
+    }
+}
